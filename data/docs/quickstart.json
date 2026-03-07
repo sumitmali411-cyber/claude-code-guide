@@ -1,0 +1,222 @@
+{
+  "slug": "quickstart",
+  "title": "Quickstart",
+  "description": "## Documentation Index",
+  "url": "https://code.claude.com/docs/en/quickstart.md",
+  "content": "> ## Documentation Index\n> Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Quickstart\n\n> Welcome to Claude Code!\n\nThis quickstart guide will have you using AI-powered coding assistance in a few minutes. By the end, you'll understand how to use Claude Code for common development tasks.\n\n## Before you begin\n\nMake sure you have:\n\n* A terminal or command prompt open\n  * If you've never used the terminal before, check out the [terminal guide](/en/terminal-guide)\n* A code project to work with\n* A [Claude subscription](https://claude.com/pricing) (Pro, Max, Teams, or Enterprise), [Claude Console](https://console.anthropic.com/) account, or access through a [supported cloud provider](/en/third-party-integrations)\n\n<Note>\n  This guide covers the terminal CLI. Claude Code is also available on the [web](https://claude.ai/code), as a [desktop app](/en/desktop), in [VS Code](/en/vs-code) and [JetBrains IDEs](/en/jetbrains), in [Slack](/en/slack), and in CI/CD with [GitHub Actions](/en/github-actions) and [GitLab](/en/gitlab-ci-cd). See [all interfaces](/en/overview#use-claude-code-everywhere).\n</Note>\n\n## Step 1: Install Claude Code\n\nTo install Claude Code, use one of the following methods:\n\n<Tabs>\n  <Tab title=\"Native Install (Recommended)\">\n    **macOS, Linux, WSL:**\n\n    ```bash  theme={null}\n    curl -fsSL https://claude.ai/install.sh | bash\n    ```\n\n    **Windows PowerShell:**\n\n    ```powershell  theme={null}\n    irm https://claude.ai/install.ps1 | iex\n    ```\n\n    **Windows CMD:**\n\n    ```batch  theme={null}\n    curl -fsSL https://claude.ai/install.cmd -o install.cmd && install.cmd && del install.cmd\n    ```\n\n    **Windows requires [Git for Windows](https://git-scm.com/downloads/win).** Install it first if you don't have it.\n\n    <Info>\n      Native installations automatically update in the background to keep you on the latest version.\n    </Info>\n  </Tab>\n\n  <Tab title=\"Homebrew\">\n    ```bash  theme={null}\n    brew install --cask claude-code\n    ```\n\n    <Info>\n      Homebrew installations do not auto-update. Run `brew upgrade claude-code` periodically to get the latest features and security fixes.\n    </Info>\n  </Tab>\n\n  <Tab title=\"WinGet\">\n    ```powershell  theme={null}\n    winget install Anthropic.ClaudeCode\n    ```\n\n    <Info>\n      WinGet installations do not auto-update. Run `winget upgrade Anthropic.ClaudeCode` periodically to get the latest features and security fixes.\n    </Info>\n  </Tab>\n</Tabs>\n\n## Step 2: Log in to your account\n\nClaude Code requires an account to use. When you start an interactive session with the `claude` command, you'll need to log in:\n\n```bash  theme={null}\nclaude\n# You'll be prompted to log in on first use\n```\n\n```bash  theme={null}\n/login\n# Follow the prompts to log in with your account\n```\n\nYou can log in using any of these account types:\n\n* [Claude Pro, Max, Teams, or Enterprise](https://claude.com/pricing) (recommended)\n* [Claude Console](https://console.anthropic.com/) (API access with pre-paid credits). On first login, a \"Claude Code\" workspace is automatically created in the Console for centralized cost tracking.\n* [Amazon Bedrock, Google Vertex AI, or Microsoft Foundry](/en/third-party-integrations) (enterprise cloud providers)\n\nOnce logged in, your credentials are stored and you won't need to log in again. To switch accounts later, use the `/login` command.\n\n## Step 3: Start your first session\n\nOpen your terminal in any project directory and start Claude Code:\n\n```bash  theme={null}\ncd /path/to/your/project\nclaude\n```\n\nYou'll see the Claude Code welcome screen with your session information, recent conversations, and latest updates. Type `/help` for available commands or `/resume` to continue a previous conversation.\n\n<Tip>\n  After logging in (Step 2), your credentials are stored on your system. Learn more in [Credential Management](/en/authentication#credential-management).\n</Tip>\n\n## Step 4: Ask your first question\n\nLet's start with understanding your codebase. Try one of these commands:\n\n```text  theme={null}\nwhat does this project do?\n```\n\nClaude will analyze your files and provide a summary. You can also ask more specific questions:\n\n```text  theme={null}\nwhat technologies does this project use?\n```\n\n```text  theme={null}\nwhere is the main entry point?\n```\n\n```text  theme={null}\nexplain the folder structure\n```\n\nYou can also ask Claude about its own capabilities:\n\n```text  theme={null}\nwhat can Claude Code do?\n```\n\n```text  theme={null}\nhow do I create custom skills in Claude Code?\n```\n\n```text  theme={null}\ncan Claude Code work with Docker?\n```\n\n<Note>\n  Claude Code reads your project files as needed. You don't have to manually add context.\n</Note>\n\n## Step 5: Make your first code change\n\nNow let's make Claude Code do some actual coding. Try a simple task:\n\n```text  theme={null}\nadd a hello world function to the main file\n```\n\nClaude Code will:\n\n1. Find the appropriate file\n2. Show you the proposed changes\n3. Ask for your approval\n4. Make the edit\n\n<Note>\n  Claude Code always asks for permission before modifying files. You can approve individual changes or enable \"Accept all\" mode for a session.\n</Note>\n\n## Step 6: Use Git with Claude Code\n\nClaude Code makes Git operations conversational:\n\n```text  theme={null}\nwhat files have I changed?\n```\n\n```text  theme={null}\ncommit my changes with a descriptive message\n```\n\nYou can also prompt for more complex Git operations:\n\n```text  theme={null}\ncreate a new branch called feature/quickstart\n```\n\n```text  theme={null}\nshow me the last 5 commits\n```\n\n```text  theme={null}\nhelp me resolve merge conflicts\n```\n\n## Step 7: Fix a bug or add a feature\n\nClaude is proficient at debugging and feature implementation.\n\nDescribe what you want in natural language:\n\n```text  theme={null}\nadd input validation to the user registration form\n```\n\nOr fix existing issues:\n\n```text  theme={null}\nthere's a bug where users can submit empty forms - fix it\n```\n\nClaude Code will:\n\n* Locate the relevant code\n* Understand the context\n* Implement a solution\n* Run tests if available\n\n## Step 8: Test out other common workflows\n\nThere are a number of ways to work with Claude:\n\n**Refactor code**\n\n```text  theme={null}\nrefactor the authentication module to use async/await instead of callbacks\n```\n\n**Write tests**\n\n```text  theme={null}\nwrite unit tests for the calculator functions\n```\n\n**Update documentation**\n\n```text  theme={null}\nupdate the README with installation instructions\n```\n\n**Code review**\n\n```text  theme={null}\nreview my changes and suggest improvements\n```\n\n<Tip>\n  Talk to Claude like you would a helpful colleague. Describe what you want to achieve, and it will help you get there.\n</Tip>\n\n## Essential commands\n\nHere are the most important commands for daily use:\n\n| Command             | What it does                                           | Example                             |\n| ------------------- | ------------------------------------------------------ | ----------------------------------- |\n| `claude`            | Start interactive mode                                 | `claude`                            |\n| `claude \"task\"`     | Run a one-time task                                    | `claude \"fix the build error\"`      |\n| `claude -p \"query\"` | Run one-off query, then exit                           | `claude -p \"explain this function\"` |\n| `claude -c`         | Continue most recent conversation in current directory | `claude -c`                         |\n| `claude -r`         | Resume a previous conversation                         | `claude -r`                         |\n| `claude commit`     | Create a Git commit                                    | `claude commit`                     |\n| `/clear`            | Clear conversation history                             | `/clear`                            |\n| `/help`             | Show available commands                                | `/help`                             |\n| `exit` or Ctrl+C    | Exit Claude Code                                       | `exit`                              |\n\nSee the [CLI reference](/en/cli-reference) for a complete list of commands.\n\n## Pro tips for beginners\n\nFor more, see [best practices](/en/best-practices) and [common workflows](/en/common-workflows).\n\n<AccordionGroup>\n  <Accordion title=\"Be specific with your requests\">\n    Instead of: \"fix the bug\"\n\n    Try: \"fix the login bug where users see a blank screen after entering wrong credentials\"\n  </Accordion>\n\n  <Accordion title=\"Use step-by-step instructions\">\n    Break complex tasks into steps:\n\n    ```text  theme={null}\n    1. create a new database table for user profiles\n    2. create an API endpoint to get and update user profiles\n    3. build a webpage that allows users to see and edit their information\n    ```\n  </Accordion>\n\n  <Accordion title=\"Let Claude explore first\">\n    Before making changes, let Claude understand your code:\n\n    ```text  theme={null}\n    analyze the database schema\n    ```\n\n    ```text  theme={null}\n    build a dashboard showing products that are most frequently returned by our UK customers\n    ```\n  </Accordion>\n\n  <Accordion title=\"Save time with shortcuts\">\n    * Press `?` to see all available keyboard shortcuts\n    * Use Tab for command completion\n    * Press ↑ for command history\n    * Type `/` to see all commands and skills\n  </Accordion>\n</AccordionGroup>\n\n## What's next?\n\nNow that you've learned the basics, explore more advanced features:\n\n<CardGroup cols={2}>\n  <Card title=\"How Claude Code works\" icon=\"microchip\" href=\"/en/how-claude-code-works\">\n    Understand the agentic loop, built-in tools, and how Claude Code interacts with your project\n  </Card>\n\n  <Card title=\"Best practices\" icon=\"star\" href=\"/en/best-practices\">\n    Get better results with effective prompting and project setup\n  </Card>\n\n  <Card title=\"Common workflows\" icon=\"graduation-cap\" href=\"/en/common-workflows\">\n    Step-by-step guides for common tasks\n  </Card>\n\n  <Card title=\"Extend Claude Code\" icon=\"puzzle-piece\" href=\"/en/features-overview\">\n    Customize with CLAUDE.md, skills, hooks, MCP, and more\n  </Card>\n</CardGroup>\n\n## Getting help\n\n* **In Claude Code**: Type `/help` or ask \"how do I...\"\n* **Documentation**: You're here! Browse other guides\n* **Community**: Join our [Discord](https://www.anthropic.com/discord) for tips and support\n",
+  "sections": [
+    {
+      "level": 1,
+      "heading": "Quickstart",
+      "content": "> Welcome to Claude Code!\n\nThis quickstart guide will have you using AI-powered coding assistance in a few minutes. By the end, you'll understand how to use Claude Code for common development tasks."
+    },
+    {
+      "level": 2,
+      "heading": "Before you begin",
+      "content": "Make sure you have:\n\n* A terminal or command prompt open\n  * If you've never used the terminal before, check out the [terminal guide](/en/terminal-guide)\n* A code project to work with\n* A [Claude subscription](https://claude.com/pricing) (Pro, Max, Teams, or Enterprise), [Claude Console](https://console.anthropic.com/) account, or access through a [supported cloud provider](/en/third-party-integrations)\n\n<Note>\n  This guide covers the terminal CLI. Claude Code is also available on the [web](https://claude.ai/code), as a [desktop app](/en/desktop), in [VS Code](/en/vs-code) and [JetBrains IDEs](/en/jetbrains), in [Slack](/en/slack), and in CI/CD with [GitHub Actions](/en/github-actions) and [GitLab](/en/gitlab-ci-cd). See [all interfaces](/en/overview#use-claude-code-everywhere).\n</Note>"
+    },
+    {
+      "level": 2,
+      "heading": "Step 1: Install Claude Code",
+      "content": "To install Claude Code, use one of the following methods:\n\n<Tabs>\n  <Tab title=\"Native Install (Recommended)\">\n    **macOS, Linux, WSL:**\n\n    ```bash  theme={null}\n    curl -fsSL https://claude.ai/install.sh | bash\n    ```\n\n    **Windows PowerShell:**\n\n    ```powershell  theme={null}\n    irm https://claude.ai/install.ps1 | iex\n    ```\n\n    **Windows CMD:**\n\n    ```batch  theme={null}\n    curl -fsSL https://claude.ai/install.cmd -o install.cmd && install.cmd && del install.cmd\n    ```\n\n    **Windows requires [Git for Windows](https://git-scm.com/downloads/win).** Install it first if you don't have it.\n\n    <Info>\n      Native installations automatically update in the background to keep you on the latest version.\n    </Info>\n  </Tab>\n\n  <Tab title=\"Homebrew\">\n    ```bash  theme={null}\n    brew install --cask claude-code\n    ```\n\n    <Info>\n      Homebrew installations do not auto-update. Run `brew upgrade claude-code` periodically to get the latest features and security fixes.\n    </Info>\n  </Tab>\n\n  <Tab title=\"WinGet\">\n    ```powershell  theme={null}\n    winget install Anthropic.ClaudeCode\n    ```\n\n    <Info>\n      WinGet installations do not auto-update. Run `winget upgrade Anthropic.ClaudeCode` periodically to get the latest features and security fixes.\n    </Info>\n  </Tab>\n</Tabs>"
+    },
+    {
+      "level": 2,
+      "heading": "Step 2: Log in to your account",
+      "content": "Claude Code requires an account to use. When you start an interactive session with the `claude` command, you'll need to log in:\n\n```bash  theme={null}\nclaude"
+    },
+    {
+      "level": 1,
+      "heading": "You'll be prompted to log in on first use",
+      "content": "```\n\n```bash  theme={null}\n/login"
+    },
+    {
+      "level": 1,
+      "heading": "Follow the prompts to log in with your account",
+      "content": "```\n\nYou can log in using any of these account types:\n\n* [Claude Pro, Max, Teams, or Enterprise](https://claude.com/pricing) (recommended)\n* [Claude Console](https://console.anthropic.com/) (API access with pre-paid credits). On first login, a \"Claude Code\" workspace is automatically created in the Console for centralized cost tracking.\n* [Amazon Bedrock, Google Vertex AI, or Microsoft Foundry](/en/third-party-integrations) (enterprise cloud providers)\n\nOnce logged in, your credentials are stored and you won't need to log in again. To switch accounts later, use the `/login` command."
+    },
+    {
+      "level": 2,
+      "heading": "Step 3: Start your first session",
+      "content": "Open your terminal in any project directory and start Claude Code:\n\n```bash  theme={null}\ncd /path/to/your/project\nclaude\n```\n\nYou'll see the Claude Code welcome screen with your session information, recent conversations, and latest updates. Type `/help` for available commands or `/resume` to continue a previous conversation.\n\n<Tip>\n  After logging in (Step 2), your credentials are stored on your system. Learn more in [Credential Management](/en/authentication#credential-management).\n</Tip>"
+    },
+    {
+      "level": 2,
+      "heading": "Step 4: Ask your first question",
+      "content": "Let's start with understanding your codebase. Try one of these commands:\n\n```text  theme={null}\nwhat does this project do?\n```\n\nClaude will analyze your files and provide a summary. You can also ask more specific questions:\n\n```text  theme={null}\nwhat technologies does this project use?\n```\n\n```text  theme={null}\nwhere is the main entry point?\n```\n\n```text  theme={null}\nexplain the folder structure\n```\n\nYou can also ask Claude about its own capabilities:\n\n```text  theme={null}\nwhat can Claude Code do?\n```\n\n```text  theme={null}\nhow do I create custom skills in Claude Code?\n```\n\n```text  theme={null}\ncan Claude Code work with Docker?\n```\n\n<Note>\n  Claude Code reads your project files as needed. You don't have to manually add context.\n</Note>"
+    },
+    {
+      "level": 2,
+      "heading": "Step 5: Make your first code change",
+      "content": "Now let's make Claude Code do some actual coding. Try a simple task:\n\n```text  theme={null}\nadd a hello world function to the main file\n```\n\nClaude Code will:\n\n1. Find the appropriate file\n2. Show you the proposed changes\n3. Ask for your approval\n4. Make the edit\n\n<Note>\n  Claude Code always asks for permission before modifying files. You can approve individual changes or enable \"Accept all\" mode for a session.\n</Note>"
+    },
+    {
+      "level": 2,
+      "heading": "Step 6: Use Git with Claude Code",
+      "content": "Claude Code makes Git operations conversational:\n\n```text  theme={null}\nwhat files have I changed?\n```\n\n```text  theme={null}\ncommit my changes with a descriptive message\n```\n\nYou can also prompt for more complex Git operations:\n\n```text  theme={null}\ncreate a new branch called feature/quickstart\n```\n\n```text  theme={null}\nshow me the last 5 commits\n```\n\n```text  theme={null}\nhelp me resolve merge conflicts\n```"
+    },
+    {
+      "level": 2,
+      "heading": "Step 7: Fix a bug or add a feature",
+      "content": "Claude is proficient at debugging and feature implementation.\n\nDescribe what you want in natural language:\n\n```text  theme={null}\nadd input validation to the user registration form\n```\n\nOr fix existing issues:\n\n```text  theme={null}\nthere's a bug where users can submit empty forms - fix it\n```\n\nClaude Code will:\n\n* Locate the relevant code\n* Understand the context\n* Implement a solution\n* Run tests if available"
+    },
+    {
+      "level": 2,
+      "heading": "Step 8: Test out other common workflows",
+      "content": "There are a number of ways to work with Claude:\n\n**Refactor code**\n\n```text  theme={null}\nrefactor the authentication module to use async/await instead of callbacks\n```\n\n**Write tests**\n\n```text  theme={null}\nwrite unit tests for the calculator functions\n```\n\n**Update documentation**\n\n```text  theme={null}\nupdate the README with installation instructions\n```\n\n**Code review**\n\n```text  theme={null}\nreview my changes and suggest improvements\n```\n\n<Tip>\n  Talk to Claude like you would a helpful colleague. Describe what you want to achieve, and it will help you get there.\n</Tip>"
+    },
+    {
+      "level": 2,
+      "heading": "Essential commands",
+      "content": "Here are the most important commands for daily use:\n\n| Command             | What it does                                           | Example                             |\n| ------------------- | ------------------------------------------------------ | ----------------------------------- |\n| `claude`            | Start interactive mode                                 | `claude`                            |\n| `claude \"task\"`     | Run a one-time task                                    | `claude \"fix the build error\"`      |\n| `claude -p \"query\"` | Run one-off query, then exit                           | `claude -p \"explain this function\"` |\n| `claude -c`         | Continue most recent conversation in current directory | `claude -c`                         |\n| `claude -r`         | Resume a previous conversation                         | `claude -r`                         |\n| `claude commit`     | Create a Git commit                                    | `claude commit`                     |\n| `/clear`            | Clear conversation history                             | `/clear`                            |\n| `/help`             | Show available commands                                | `/help`                             |\n| `exit` or Ctrl+C    | Exit Claude Code                                       | `exit`                              |\n\nSee the [CLI reference](/en/cli-reference) for a complete list of commands."
+    },
+    {
+      "level": 2,
+      "heading": "Pro tips for beginners",
+      "content": "For more, see [best practices](/en/best-practices) and [common workflows](/en/common-workflows).\n\n<AccordionGroup>\n  <Accordion title=\"Be specific with your requests\">\n    Instead of: \"fix the bug\"\n\n    Try: \"fix the login bug where users see a blank screen after entering wrong credentials\"\n  </Accordion>\n\n  <Accordion title=\"Use step-by-step instructions\">\n    Break complex tasks into steps:\n\n    ```text  theme={null}\n    1. create a new database table for user profiles\n    2. create an API endpoint to get and update user profiles\n    3. build a webpage that allows users to see and edit their information\n    ```\n  </Accordion>\n\n  <Accordion title=\"Let Claude explore first\">\n    Before making changes, let Claude understand your code:\n\n    ```text  theme={null}\n    analyze the database schema\n    ```\n\n    ```text  theme={null}\n    build a dashboard showing products that are most frequently returned by our UK customers\n    ```\n  </Accordion>\n\n  <Accordion title=\"Save time with shortcuts\">\n    * Press `?` to see all available keyboard shortcuts\n    * Use Tab for command completion\n    * Press ↑ for command history\n    * Type `/` to see all commands and skills\n  </Accordion>\n</AccordionGroup>"
+    },
+    {
+      "level": 2,
+      "heading": "What's next?",
+      "content": "Now that you've learned the basics, explore more advanced features:\n\n<CardGroup cols={2}>\n  <Card title=\"How Claude Code works\" icon=\"microchip\" href=\"/en/how-claude-code-works\">\n    Understand the agentic loop, built-in tools, and how Claude Code interacts with your project\n  </Card>\n\n  <Card title=\"Best practices\" icon=\"star\" href=\"/en/best-practices\">\n    Get better results with effective prompting and project setup\n  </Card>\n\n  <Card title=\"Common workflows\" icon=\"graduation-cap\" href=\"/en/common-workflows\">\n    Step-by-step guides for common tasks\n  </Card>\n\n  <Card title=\"Extend Claude Code\" icon=\"puzzle-piece\" href=\"/en/features-overview\">\n    Customize with CLAUDE.md, skills, hooks, MCP, and more\n  </Card>\n</CardGroup>"
+    },
+    {
+      "level": 2,
+      "heading": "Getting help",
+      "content": "* **In Claude Code**: Type `/help` or ask \"how do I...\"\n* **Documentation**: You're here! Browse other guides\n* **Community**: Join our [Discord](https://www.anthropic.com/discord) for tips and support"
+    }
+  ],
+  "codeBlocks": [
+    {
+      "lang": "bash",
+      "code": "curl -fsSL https://claude.ai/install.sh | bash"
+    },
+    {
+      "lang": "powershell",
+      "code": "irm https://claude.ai/install.ps1 | iex"
+    },
+    {
+      "lang": "batch",
+      "code": "curl -fsSL https://claude.ai/install.cmd -o install.cmd && install.cmd && del install.cmd"
+    },
+    {
+      "lang": "bash",
+      "code": "brew install --cask claude-code"
+    },
+    {
+      "lang": "powershell",
+      "code": "winget install Anthropic.ClaudeCode"
+    },
+    {
+      "lang": "bash",
+      "code": "claude\n# You'll be prompted to log in on first use"
+    },
+    {
+      "lang": "bash",
+      "code": "/login\n# Follow the prompts to log in with your account"
+    },
+    {
+      "lang": "bash",
+      "code": "cd /path/to/your/project\nclaude"
+    },
+    {
+      "lang": "text",
+      "code": "what does this project do?"
+    },
+    {
+      "lang": "text",
+      "code": "what technologies does this project use?"
+    },
+    {
+      "lang": "text",
+      "code": "where is the main entry point?"
+    },
+    {
+      "lang": "text",
+      "code": "explain the folder structure"
+    },
+    {
+      "lang": "text",
+      "code": "what can Claude Code do?"
+    },
+    {
+      "lang": "text",
+      "code": "how do I create custom skills in Claude Code?"
+    },
+    {
+      "lang": "text",
+      "code": "can Claude Code work with Docker?"
+    },
+    {
+      "lang": "text",
+      "code": "add a hello world function to the main file"
+    },
+    {
+      "lang": "text",
+      "code": "what files have I changed?"
+    },
+    {
+      "lang": "text",
+      "code": "commit my changes with a descriptive message"
+    },
+    {
+      "lang": "text",
+      "code": "create a new branch called feature/quickstart"
+    },
+    {
+      "lang": "text",
+      "code": "show me the last 5 commits"
+    },
+    {
+      "lang": "text",
+      "code": "help me resolve merge conflicts"
+    },
+    {
+      "lang": "text",
+      "code": "add input validation to the user registration form"
+    },
+    {
+      "lang": "text",
+      "code": "there's a bug where users can submit empty forms - fix it"
+    },
+    {
+      "lang": "text",
+      "code": "refactor the authentication module to use async/await instead of callbacks"
+    },
+    {
+      "lang": "text",
+      "code": "write unit tests for the calculator functions"
+    },
+    {
+      "lang": "text",
+      "code": "update the README with installation instructions"
+    },
+    {
+      "lang": "text",
+      "code": "review my changes and suggest improvements"
+    },
+    {
+      "lang": "text",
+      "code": "1. create a new database table for user profiles\n    2. create an API endpoint to get and update user profiles\n    3. build a webpage that allows users to see and edit their information"
+    },
+    {
+      "lang": "text",
+      "code": "analyze the database schema"
+    },
+    {
+      "lang": "text",
+      "code": "build a dashboard showing products that are most frequently returned by our UK customers"
+    }
+  ],
+  "tips": [
+    "After logging in (Step 2), your credentials are stored on your system. Learn more in [Credential Management](/en/authentication#credential-management).",
+    "Talk to Claude like you would a helpful colleague. Describe what you want to achieve, and it will help you get there.",
+    "This guide covers the terminal CLI. Claude Code is also available on the [web](https://claude.ai/code), as a [desktop app](/en/desktop), in [VS Code](/en/vs-code) and [JetBrains IDEs](/en/jetbrains), in [Slack](/en/slack), and in CI/CD with [GitHub Actions](/en/github-actions) and [GitLab](/en/gitlab-ci-cd). See [all interfaces](/en/overview#use-claude-code-everywhere).",
+    "Claude Code reads your project files as needed. You don't have to manually add context.",
+    "Claude Code always asks for permission before modifying files. You can approve individual changes or enable \"Accept all\" mode for a session.",
+    "Native installations automatically update in the background to keep you on the latest version.",
+    "Homebrew installations do not auto-update. Run `brew upgrade claude-code` periodically to get the latest features and security fixes.",
+    "WinGet installations do not auto-update. Run `winget upgrade Anthropic.ClaudeCode` periodically to get the latest features and security fixes."
+  ],
+  "warnings": []
+}

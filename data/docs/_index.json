@@ -1,0 +1,362 @@
+[
+  {
+    "slug": "agent-teams",
+    "title": "Orchestrate teams of Claude Code sessions",
+    "description": "## Documentation Index",
+    "url": "https://code.claude.com/docs/en/agent-teams.md"
+  },
+  {
+    "slug": "amazon-bedrock",
+    "title": "Claude Code on Amazon Bedrock",
+    "description": "## Documentation Index",
+    "url": "https://code.claude.com/docs/en/amazon-bedrock.md"
+  },
+  {
+    "slug": "analytics",
+    "title": "Track team usage with analytics",
+    "description": "## Documentation Index",
+    "url": "https://code.claude.com/docs/en/analytics.md"
+  },
+  {
+    "slug": "authentication",
+    "title": "Authentication",
+    "description": "## Documentation Index",
+    "url": "https://code.claude.com/docs/en/authentication.md"
+  },
+  {
+    "slug": "best-practices",
+    "title": "Best Practices for Claude Code",
+    "description": "## Documentation Index",
+    "url": "https://code.claude.com/docs/en/best-practices.md"
+  },
+  {
+    "slug": "changelog",
+    "title": "Changelog",
+    "description": "<script type=\"application/json\" data-target=\"react-partial.embeddedData\">{\"props\":{\"docsUrl\":\"https://docs.github.com/get-started/accessibility/keyboard-shortcuts\"}}</script>",
+    "url": "https://code.claude.com/docs/en/changelog.md"
+  },
+  {
+    "slug": "checkpointing",
+    "title": "Checkpointing",
+    "description": "## Documentation Index",
+    "url": "https://code.claude.com/docs/en/checkpointing.md"
+  },
+  {
+    "slug": "chrome",
+    "title": "Use Claude Code with Chrome (beta)",
+    "description": "## Documentation Index",
+    "url": "https://code.claude.com/docs/en/chrome.md"
+  },
+  {
+    "slug": "claude-code-on-the-web",
+    "title": "Claude Code on the web",
+    "description": "## Documentation Index",
+    "url": "https://code.claude.com/docs/en/claude-code-on-the-web.md"
+  },
+  {
+    "slug": "cli-reference",
+    "title": "CLI reference",
+    "description": "## Documentation Index",
+    "url": "https://code.claude.com/docs/en/cli-reference.md"
+  },
+  {
+    "slug": "common-workflows",
+    "title": "Common workflows",
+    "description": "## Documentation Index",
+    "url": "https://code.claude.com/docs/en/common-workflows.md"
+  },
+  {
+    "slug": "costs",
+    "title": "Manage costs effectively",
+    "description": "## Documentation Index",
+    "url": "https://code.claude.com/docs/en/costs.md"
+  },
+  {
+    "slug": "data-usage",
+    "title": "Data usage",
+    "description": "## Documentation Index",
+    "url": "https://code.claude.com/docs/en/data-usage.md"
+  },
+  {
+    "slug": "desktop",
+    "title": "Use Claude Code Desktop",
+    "description": "## Documentation Index",
+    "url": "https://code.claude.com/docs/en/desktop.md"
+  },
+  {
+    "slug": "desktop-quickstart",
+    "title": "Get started with the desktop app",
+    "description": "## Documentation Index",
+    "url": "https://code.claude.com/docs/en/desktop-quickstart.md"
+  },
+  {
+    "slug": "devcontainer",
+    "title": "Development containers",
+    "description": "## Documentation Index",
+    "url": "https://code.claude.com/docs/en/devcontainer.md"
+  },
+  {
+    "slug": "discover-plugins",
+    "title": "Discover and install prebuilt plugins through marketplaces",
+    "description": "## Documentation Index",
+    "url": "https://code.claude.com/docs/en/discover-plugins.md"
+  },
+  {
+    "slug": "fast-mode",
+    "title": "Speed up responses with fast mode",
+    "description": "## Documentation Index",
+    "url": "https://code.claude.com/docs/en/fast-mode.md"
+  },
+  {
+    "slug": "features-overview",
+    "title": "Extend Claude Code",
+    "description": "## Documentation Index",
+    "url": "https://code.claude.com/docs/en/features-overview.md"
+  },
+  {
+    "slug": "github-actions",
+    "title": "Claude Code GitHub Actions",
+    "description": "## Documentation Index",
+    "url": "https://code.claude.com/docs/en/github-actions.md"
+  },
+  {
+    "slug": "gitlab-ci-cd",
+    "title": "Claude Code GitLab CI/CD",
+    "description": "## Documentation Index",
+    "url": "https://code.claude.com/docs/en/gitlab-ci-cd.md"
+  },
+  {
+    "slug": "google-vertex-ai",
+    "title": "Claude Code on Google Vertex AI",
+    "description": "## Documentation Index",
+    "url": "https://code.claude.com/docs/en/google-vertex-ai.md"
+  },
+  {
+    "slug": "headless",
+    "title": "Run Claude Code programmatically",
+    "description": "## Documentation Index",
+    "url": "https://code.claude.com/docs/en/headless.md"
+  },
+  {
+    "slug": "hooks",
+    "title": "Hooks reference",
+    "description": "## Documentation Index",
+    "url": "https://code.claude.com/docs/en/hooks.md"
+  },
+  {
+    "slug": "hooks-guide",
+    "title": "Automate workflows with hooks",
+    "description": "## Documentation Index",
+    "url": "https://code.claude.com/docs/en/hooks-guide.md"
+  },
+  {
+    "slug": "how-claude-code-works",
+    "title": "How Claude Code works",
+    "description": "## Documentation Index",
+    "url": "https://code.claude.com/docs/en/how-claude-code-works.md"
+  },
+  {
+    "slug": "interactive-mode",
+    "title": "Interactive mode",
+    "description": "## Documentation Index",
+    "url": "https://code.claude.com/docs/en/interactive-mode.md"
+  },
+  {
+    "slug": "jetbrains",
+    "title": "JetBrains IDEs",
+    "description": "## Documentation Index",
+    "url": "https://code.claude.com/docs/en/jetbrains.md"
+  },
+  {
+    "slug": "keybindings",
+    "title": "Customize keyboard shortcuts",
+    "description": "## Documentation Index",
+    "url": "https://code.claude.com/docs/en/keybindings.md"
+  },
+  {
+    "slug": "legal-and-compliance",
+    "title": "Legal and compliance",
+    "description": "## Documentation Index",
+    "url": "https://code.claude.com/docs/en/legal-and-compliance.md"
+  },
+  {
+    "slug": "llm-gateway",
+    "title": "LLM gateway configuration",
+    "description": "## Documentation Index",
+    "url": "https://code.claude.com/docs/en/llm-gateway.md"
+  },
+  {
+    "slug": "mcp",
+    "title": "Connect Claude Code to tools via MCP",
+    "description": "## Documentation Index",
+    "url": "https://code.claude.com/docs/en/mcp.md"
+  },
+  {
+    "slug": "memory",
+    "title": "How Claude remembers your project",
+    "description": "## Documentation Index",
+    "url": "https://code.claude.com/docs/en/memory.md"
+  },
+  {
+    "slug": "microsoft-foundry",
+    "title": "Claude Code on Microsoft Foundry",
+    "description": "## Documentation Index",
+    "url": "https://code.claude.com/docs/en/microsoft-foundry.md"
+  },
+  {
+    "slug": "model-config",
+    "title": "Model configuration",
+    "description": "## Documentation Index",
+    "url": "https://code.claude.com/docs/en/model-config.md"
+  },
+  {
+    "slug": "monitoring-usage",
+    "title": "Monitoring",
+    "description": "## Documentation Index",
+    "url": "https://code.claude.com/docs/en/monitoring-usage.md"
+  },
+  {
+    "slug": "network-config",
+    "title": "Enterprise network configuration",
+    "description": "## Documentation Index",
+    "url": "https://code.claude.com/docs/en/network-config.md"
+  },
+  {
+    "slug": "output-styles",
+    "title": "Output styles",
+    "description": "## Documentation Index",
+    "url": "https://code.claude.com/docs/en/output-styles.md"
+  },
+  {
+    "slug": "overview",
+    "title": "Claude Code overview",
+    "description": "## Documentation Index",
+    "url": "https://code.claude.com/docs/en/overview.md"
+  },
+  {
+    "slug": "permissions",
+    "title": "Configure permissions",
+    "description": "## Documentation Index",
+    "url": "https://code.claude.com/docs/en/permissions.md"
+  },
+  {
+    "slug": "plugin-marketplaces",
+    "title": "Create and distribute a plugin marketplace",
+    "description": "## Documentation Index",
+    "url": "https://code.claude.com/docs/en/plugin-marketplaces.md"
+  },
+  {
+    "slug": "plugins",
+    "title": "Create plugins",
+    "description": "## Documentation Index",
+    "url": "https://code.claude.com/docs/en/plugins.md"
+  },
+  {
+    "slug": "plugins-reference",
+    "title": "Plugins reference",
+    "description": "## Documentation Index",
+    "url": "https://code.claude.com/docs/en/plugins-reference.md"
+  },
+  {
+    "slug": "quickstart",
+    "title": "Quickstart",
+    "description": "## Documentation Index",
+    "url": "https://code.claude.com/docs/en/quickstart.md"
+  },
+  {
+    "slug": "remote-control",
+    "title": "Continue local sessions from any device with Remote Control",
+    "description": "## Documentation Index",
+    "url": "https://code.claude.com/docs/en/remote-control.md"
+  },
+  {
+    "slug": "sandboxing",
+    "title": "Sandboxing",
+    "description": "## Documentation Index",
+    "url": "https://code.claude.com/docs/en/sandboxing.md"
+  },
+  {
+    "slug": "scheduled-tasks",
+    "title": "Run prompts on a schedule",
+    "description": "## Documentation Index",
+    "url": "https://code.claude.com/docs/en/scheduled-tasks.md"
+  },
+  {
+    "slug": "security",
+    "title": "Security",
+    "description": "## Documentation Index",
+    "url": "https://code.claude.com/docs/en/security.md"
+  },
+  {
+    "slug": "server-managed-settings",
+    "title": "Configure server-managed settings (public beta)",
+    "description": "## Documentation Index",
+    "url": "https://code.claude.com/docs/en/server-managed-settings.md"
+  },
+  {
+    "slug": "settings",
+    "title": "Claude Code settings",
+    "description": "## Documentation Index",
+    "url": "https://code.claude.com/docs/en/settings.md"
+  },
+  {
+    "slug": "setup",
+    "title": "Advanced setup",
+    "description": "## Documentation Index",
+    "url": "https://code.claude.com/docs/en/setup.md"
+  },
+  {
+    "slug": "skills",
+    "title": "Extend Claude with skills",
+    "description": "## Documentation Index",
+    "url": "https://code.claude.com/docs/en/skills.md"
+  },
+  {
+    "slug": "slack",
+    "title": "Claude Code in Slack",
+    "description": "## Documentation Index",
+    "url": "https://code.claude.com/docs/en/slack.md"
+  },
+  {
+    "slug": "statusline",
+    "title": "Customize your status line",
+    "description": "## Documentation Index",
+    "url": "https://code.claude.com/docs/en/statusline.md"
+  },
+  {
+    "slug": "sub-agents",
+    "title": "Create custom subagents",
+    "description": "## Documentation Index",
+    "url": "https://code.claude.com/docs/en/sub-agents.md"
+  },
+  {
+    "slug": "terminal-config",
+    "title": "Optimize your terminal setup",
+    "description": "## Documentation Index",
+    "url": "https://code.claude.com/docs/en/terminal-config.md"
+  },
+  {
+    "slug": "third-party-integrations",
+    "title": "Enterprise deployment overview",
+    "description": "## Documentation Index",
+    "url": "https://code.claude.com/docs/en/third-party-integrations.md"
+  },
+  {
+    "slug": "troubleshooting",
+    "title": "Troubleshooting",
+    "description": "## Documentation Index",
+    "url": "https://code.claude.com/docs/en/troubleshooting.md"
+  },
+  {
+    "slug": "vs-code",
+    "title": "Use Claude Code in VS Code",
+    "description": "## Documentation Index",
+    "url": "https://code.claude.com/docs/en/vs-code.md"
+  },
+  {
+    "slug": "zero-data-retention",
+    "title": "Zero data retention",
+    "description": "## Documentation Index",
+    "url": "https://code.claude.com/docs/en/zero-data-retention.md"
+  }
+]
