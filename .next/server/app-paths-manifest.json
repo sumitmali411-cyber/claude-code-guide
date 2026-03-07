@@ -1,0 +1,19 @@
+{
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/learn/advanced/page": "app/learn/advanced/page.js",
+  "/learn/daily-workflows/page": "app/learn/daily-workflows/page.js",
+  "/learn/getting-started/page": "app/learn/getting-started/page.js",
+  "/learn/hooks/page": "app/learn/hooks/page.js",
+  "/learn/how-it-works/page": "app/learn/how-it-works/page.js",
+  "/learn/mcp/page": "app/learn/mcp/page.js",
+  "/learn/memory/page": "app/learn/memory/page.js",
+  "/learn/page": "app/learn/page.js",
+  "/learn/skills/page": "app/learn/skills/page.js",
+  "/page": "app/page.js",
+  "/reference/cheatsheet/page": "app/reference/cheatsheet/page.js",
+  "/reference/commands/page": "app/reference/commands/page.js",
+  "/tools/claude-md-builder/page": "app/tools/claude-md-builder/page.js",
+  "/tools/hook-builder/page": "app/tools/hook-builder/page.js"
+}

@@ -1,0 +1,19 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/favicon.ico/route": "/favicon.ico",
+  "/learn/advanced/page": "/learn/advanced",
+  "/learn/daily-workflows/page": "/learn/daily-workflows",
+  "/learn/getting-started/page": "/learn/getting-started",
+  "/learn/hooks/page": "/learn/hooks",
+  "/learn/how-it-works/page": "/learn/how-it-works",
+  "/learn/mcp/page": "/learn/mcp",
+  "/learn/memory/page": "/learn/memory",
+  "/learn/page": "/learn",
+  "/learn/skills/page": "/learn/skills",
+  "/page": "/",
+  "/reference/cheatsheet/page": "/reference/cheatsheet",
+  "/reference/commands/page": "/reference/commands",
+  "/tools/claude-md-builder/page": "/tools/claude-md-builder",
+  "/tools/hook-builder/page": "/tools/hook-builder"
+}

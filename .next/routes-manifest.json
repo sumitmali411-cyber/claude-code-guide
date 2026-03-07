@@ -1,0 +1,146 @@
+{
+  "version": 3,
+  "pages404": true,
+  "appType": "app",
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/favicon.ico",
+      "regex": "^/favicon\\.ico(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/favicon\\.ico(?:/)?$"
+    },
+    {
+      "page": "/learn",
+      "regex": "^/learn(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn(?:/)?$"
+    },
+    {
+      "page": "/learn/advanced",
+      "regex": "^/learn/advanced(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/advanced(?:/)?$"
+    },
+    {
+      "page": "/learn/daily-workflows",
+      "regex": "^/learn/daily\\-workflows(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/daily\\-workflows(?:/)?$"
+    },
+    {
+      "page": "/learn/getting-started",
+      "regex": "^/learn/getting\\-started(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/getting\\-started(?:/)?$"
+    },
+    {
+      "page": "/learn/hooks",
+      "regex": "^/learn/hooks(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/hooks(?:/)?$"
+    },
+    {
+      "page": "/learn/how-it-works",
+      "regex": "^/learn/how\\-it\\-works(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/how\\-it\\-works(?:/)?$"
+    },
+    {
+      "page": "/learn/mcp",
+      "regex": "^/learn/mcp(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/mcp(?:/)?$"
+    },
+    {
+      "page": "/learn/memory",
+      "regex": "^/learn/memory(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/memory(?:/)?$"
+    },
+    {
+      "page": "/learn/skills",
+      "regex": "^/learn/skills(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/skills(?:/)?$"
+    },
+    {
+      "page": "/reference/cheatsheet",
+      "regex": "^/reference/cheatsheet(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/reference/cheatsheet(?:/)?$"
+    },
+    {
+      "page": "/reference/commands",
+      "regex": "^/reference/commands(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/reference/commands(?:/)?$"
+    },
+    {
+      "page": "/tools/claude-md-builder",
+      "regex": "^/tools/claude\\-md\\-builder(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tools/claude\\-md\\-builder(?:/)?$"
+    },
+    {
+      "page": "/tools/hook-builder",
+      "regex": "^/tools/hook\\-builder(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tools/hook\\-builder(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}
