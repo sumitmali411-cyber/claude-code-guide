@@ -1,11 +1,1 @@
-{
-  "/learn/daily-workflows/page": "app/learn/daily-workflows/page.js",
-  "/learn/getting-started/page": "app/learn/getting-started/page.js",
-  "/learn/how-it-works/page": "app/learn/how-it-works/page.js",
-  "/learn/memory/page": "app/learn/memory/page.js",
-  "/page": "app/page.js",
-  "/reference/cheatsheet/page": "app/reference/cheatsheet/page.js",
-  "/reference/commands/page": "app/reference/commands/page.js",
-  "/tools/claude-md-builder/page": "app/tools/claude-md-builder/page.js",
-  "/tools/hook-builder/page": "app/tools/hook-builder/page.js"
-}
+{}
