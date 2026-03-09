@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-node_modules
-./next
-.DS_Store
-dist
-*.log
-*.env
-*.local
-.idea
-.vscode
-coverage
-*.tsbuildinfo
-=======
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
@@ -52,4 +39,3 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
->>>>>>> 972f488497dca8a3be816f1fb59478a5b98d4ad5
